@@ -2,49 +2,60 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Student Bio</title>
-   
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <title>Jose Leyva</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-<header>
-<div id="contact">
-<form action="/my-handling-form-page" method="post">
-    <div>	
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name">
+  <header id="main">
+    <div class="container">
+      <a herf="index.html" id="name-logo">Jose Leyva</a>
+      <nav class="topnav">
+        <ul>
+          <li><a href="index.html">About</a></li>
+
+          <li><a href="portfolio.html">Portfolio</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
     </div>
-  
-    <div>
-      <label for="mail">E-mail:</label>
-      <input type="email" id="mail" name="user_email">
-    </div>
-  
-    <div>
-      <label for="msg">Message:</label>
-      <textarea id="msg" name="user_message"></textarea>
-    </div>
-   
-    <div class="button">
-      <button type="submit">Send your message</button>
-    </div>
-  </form>
-</header>
-  
-  
-</div>
-  
-<div style="overflow:auto;">
-      <div style="float:right;">
-        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+  </header>
+  <div id="main-container" class="container">
+    <section class="main-fraime">
+      <h1>Contact</h1>
+
+      <form id="main-form">
+        <ul>
+          <li>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+          <li>
+          </li>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="user_email">
+          <li>
+
+          </li>
+
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+          <li>
+
+            <ul>
+
+              <input type="submit">
+      </form>
+    </section>
+    <footer>
+      <div class="container">
+        Copyright &copy;
       </div>
-    </div>
-    
-    
-    </form>
-    </body>
-    </html>
+    </footer>
+</body>
+
+</html>
